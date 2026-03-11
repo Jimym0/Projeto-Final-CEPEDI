@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     'tasks.apps.TasksConfig',
     'crispy_forms',
     'crispy_bootstrap5',
+    'widget_tweaks',
 ]
 
 MIDDLEWARE = [
