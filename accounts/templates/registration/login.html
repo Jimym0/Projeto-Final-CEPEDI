@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block page_title %}
+Login
+{% endblock page_title %}
+
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-md-6 col-lg-4">
+    <div class="card shadow-sm">
+      <div class="card-header bg-primary text-white">
+        <h4 class="mb-0">Login</h4>
+      </div>
+      <div class="card-body">
+        <form method="post">
+          {% csrf_token %}
+          {{ form.as_p }}
+          <div class="d-flex justify-content-between">
+            <button type="submit" class="btn btn-primary btn-sm">Entrar</button>
+            <a href="{% url 'signup' %}" class="btn btn-secondary btn-sm">Cadastrar</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
