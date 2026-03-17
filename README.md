@@ -26,6 +26,8 @@ Possuindo tambem a função de login e cadastro que permite que as tarefas sejam
 - Inicialização do ambiente virtual
  
 ```
+python -m venv venv
+
 .\venv\Scripts\Activate.ps1
 ```
 *Caso o terminal aponte um erro de segurança utilize o seguinte comando e repita novamente a inicialização do venv
