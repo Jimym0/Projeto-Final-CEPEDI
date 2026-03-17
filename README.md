@@ -9,7 +9,7 @@ Sendo este um sistema simples de listas de tarefas.
 
 O sistema vai ser executado apartir do terminal mas funcionara interiamente em um navegador.
 
-Sua principal funcionalidade é o cadastro de tarefas contendo o dia que a mesma foi criada e possuindo um praso para a finalização, tendo a possibilidade de editar, comcluir a tarefa e excluir.
+Sua principal funcionalidade é o cadastro de tarefas contendo o dia que a mesma foi criada e possuindo um prazo para a finalização, tendo a possibilidade de editar, comcluir a tarefa e excluir.
 
 Possuindo tambem a função de login e cadastro que permite que as tarefas sejam exclusivas de seus respectivos usuarios.
 
@@ -45,4 +45,4 @@ pip install -r requirements.txt
 ```
 python manage.py runserver
 ```
-Agora o projeto esta pronto para ser usando as contas criadas e tarefas seram armazenadas localmente no banco de dados presende nos arquivos do projeto.
+Agora o projeto esta pronto para ser usando as contas criadas e tarefas seram armazenadas localmente no banco de dados presente nos arquivos do projeto.
